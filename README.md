@@ -19,3 +19,16 @@ The API reference, examples, as well as introduction can be found at
 https://x42.github.io/libltc/
 
 This site is part or the source-code in the doc/ folder.
+
+
+Add CMakeLists.txt
+--------------
+
+```bash
+mkdir build 
+cd build
+cmake ..
+cmake --build . --config Debug
+cmake --build . --config Release
+cmake --build . --config RelWithDebInfo
+```
